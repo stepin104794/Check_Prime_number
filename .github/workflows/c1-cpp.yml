@@ -13,6 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: makeall
-      run: makeall -C Check_Prime_number/3_Implementation/
+    - name: make all
+      run: make all -C Check_Prime_number/3_Implementation/
    
