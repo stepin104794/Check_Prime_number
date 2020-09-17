@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: makeall
-      run: makeall
+      run: makeall -C Check_Prime_number/3_Implementation/
    
