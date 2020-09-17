@@ -16,5 +16,5 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, World
     - name: make all
-      run:  make all  Check_Prime_number/
+      run:  make all  -C 
    
