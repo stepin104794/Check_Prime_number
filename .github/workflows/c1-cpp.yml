@@ -17,6 +17,6 @@ jobs:
       run: echo Hello, World
     - name: Install Cunit
       run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test
-      run:  make test -C Check_Prime_number/
+    - name: make all
+      run:  make all -C Check_Prime_number
    
